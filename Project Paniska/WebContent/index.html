@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>P.A.Ni.S.Ka</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!-- JQuery CDN (Content Delivery Network) -->
+		<link rel="stylesheet" href="./CSS/custom_theme.css" />
+		<link rel="stylesheet" href="./CSS/structure.css" />
+		<link rel="stylesheet" href="./CSS/jquery.mobile.icons.min.css" />
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		
+		<!-- CSS and JS -->
+		<link rel="stylesheet" type="text/css" href="./CSS/stylesheet.css" />
+		<script src="./js/script.js"></script>
+		
+
+
+</head>
+	<body>
+		<!-- HOME -->
+		 <div id="home" data-role="page">
+		 
+			 <div data-role="header" data-position="fixed">
+			 	<h1>Home</h1>
+			 	<a href="#paniska" data-icon="arrow-r" data-iconpos="right" data-transition="slide"
+			 	class="ui-btn-right"
+			 	>P.A.Ni.S.Ka</a>
+			 </div> <!-- Header -->
+			 
+			 <div role="main" class="ui-content">
+			 	<p>Hello world</p>
+			 </div> <!-- MAIN -->
+			 
+			  <!-- FOOTER  -->
+			 <div data-role="footer" data-position="fixed">
+				<h4>&copy; P.A.Ni.S.Ka™</h4>
+			 </div>
+			 
+		 </div> <!-- PAGE  -->
+		 
+		 <!--  P.A.Ni.S.Ka -->
+		 <div id="paniska" data-role="page" >
+			 <div data-role="header" data-position="fixed">
+			 	<h1>P.A.Ni.S.Ka</h1>
+			 	<a href="#home" data-icon="home" data-transition="flip" data-iconpos="notext">Home</a>
+			 	<a href="#about" data-icon="info" data-transition="pop" data-iconpos="notext" data-rel="dialog">Info</a>
+			 </div>  <!-- Header -->
+			 
+			 <div role="main" class="ui-content">
+			 	<p>Welcome to P.A.Ni.S.Ka</p>
+			 	<p><img src="https://scontent-mxp1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1554399_577457769018621_2955184337092217918_n.jpg?oh=4bc570d16187ce297115cb308ff877cb&oe=567368D5"
+			 	alt = ""><p>
+			 </div> <!-- MAIN -->
+			 
+			 <!-- FOOTER  -->
+			 <div data-role="footer" data-position="fixed">
+			 
+			 	<div data-role="navbar">
+		  			<ul>
+						<li><a href="#photos" data-role="button" data-transition="slideup"> Photos</a></li>
+						<li><a href="#videos" data-role="button" data-transition="slideup"> Videos </a></li>
+						<li><a href="#comments" data-role="button" data-transition="slideup"> Comments </a></li>
+						<li><a href="#links" data-role="button" data-transition="slideup"> Links </a></li>
+					</ul>
+					<p></p>
+				</div><!-- /navbar -->
+			 </div>	<!-- /Footer --> 
+			 
+		 </div> <!-- PAGE  -->
+		 
+		  <!--  ABOUT -->
+		 <div id="about" data-role="page">
+		 
+			 <div data-role="header" data-position="fixed">
+			 	<a href="#home" data-icon="home" data-transition="flip" data-iconpos="notext">Home</a>
+			 	<a href="#" data-icon="back" data-iconpos="notext" data-rel="back" >Back</a>
+			 	<h1>About</h1>
+			 
+			 </div>  <!-- Header -->
+			 
+			 <div data-role="content" id = "infoContents">
+			 
+			 	<h4>Tropang P.A.Ni.S.Ka™ </h4>
+			 	<p>
+			 	<b>P</b>  -> Patrick <br>
+			 	<b>A</b>  -> Amiel <br>
+			 	<b>Ni</b> -> Nine (Jeanelle)	<br>
+			 	<b>S</b>  -> Sisel(Cecille)	<br>
+			 	<b>Ka</b> -> Kajang(Karen)	<br>
+			 	</p>
+			 </div><!-- content -->
+			 
+		 </div>  <!-- About Page  -->
+		 
+		 <!-- Paniska Media -->
+		 
+		 <!-- PHOTOS -->
+		 <div id="photos" data-role="page">
+		 	<div data-role="header" data-position="fixed" data-id="paniska_header">
+		 		<h1>Photos</h1>
+		 		<a href="#paniska" data-icon="arrow-l" data-transition="slidedown" data-iconpos="notext">Back</a>
+		 	</div> <!-- header -->
+		 	
+		 	<div data-role="content">
+		 	
+		 		<div class="ui-grid-c" id="photoList">
+		 		</div>
+		 	
+			</div><!-- CONTENT -->
+			
+			 <div data-role="footer" data-position="fixed" data-fullscreen="false">
+			 
+			 	<div data-role="navbar">
+		  			<ul>
+						<li><a href="#photos" data-role="button" class="ui-btn-active ui-state-persist" data-transition="slideup"> Photos</a></li>
+						<li><a href="#videos" data-role="button" data-transition="slideup"> Videos </a></li>
+						<li><a href="#comments" data-role="button" data-transition="slideup"> Comments </a></li>
+						<li><a href="#links" data-role="button" data-transition="slideup"> Links </a></li>
+					</ul>
+					<p></p>
+				</div><!-- /navbar -->
+			 </div>	<!-- /Footer -->
+		 </div> <!-- Photos PAGE -->
+		 
+		 
+		 <!-- VIDEOS -->
+		 <div id="videos" data-role="page">
+		 	<div data-role="header" data-position="fixed" data-id="paniska_header">
+		 		<h1>Videos</h1>
+		 		<a href="#paniska" data-icon="arrow-l" data-transition="slidedown" data-iconpos="notext">Back</a>
+		 	</div> <!-- header -->
+		 	
+		 	<div data-role="content" id="videoResults">
+		 	
+		 		<ul > </ul>
+			 	
+			</div><!-- VIDEO RESULTS -->
+			
+			 <div data-role="footer" data-position="fixed" data-fullscreen="false">
+			 
+			 	<div data-role="navbar">
+		  			<ul>
+						<li><a href="#photos" data-role="button" data-transition="slideup"> Photos</a></li>
+						<li><a href="#videos" data-role="button"  class="ui-btn-active ui-state-persist" data-transition="slideup"> Videos </a></li>
+						<li><a href="#comments" data-role="button" data-transition="slideup"> Comments </a></li>
+						<li><a href="#links" data-role="button" data-transition="slideup"> Links </a></li>
+					</ul>
+					<p></p>
+				</div><!-- /navbar -->
+			 </div>	<!-- /Footer -->
+		 </div> <!-- Photos PAGE -->
+		 
+		 
+		 
+		 <!-- COMMENTS -->
+		 <div id="comments" data-role="page">
+		 	<div data-role="header" data-position="fixed" data-id="paniska_header">
+		 		<h1>Comments</h1>
+		 		<a href="#paniska" data-icon="arrow-l" data-transition="slidedown" data-iconpos="notext">Back</a>
+		 	</div> <!-- header -->
+		 	
+	
+			
+			 <div data-role="footer" data-position="fixed" data-fullscreen="false">
+			 	<div data-role="navbar">
+		  			<ul>
+						<li><a href="#photos" data-role="button" data-transition="slideup"> Photos</a></li>
+						<li><a href="#videos" data-role="button" data-transition="slideup"> Videos </a></li>
+						<li><a href="#comments" data-role="button" class="ui-btn-active ui-state-persist" data-transition="slideup"> Comments </a></li>
+						<li><a href="#links" data-role="button" data-transition="slideup"> Links </a></li>
+					</ul>
+					<p></p>
+				</div><!-- /navbar -->
+			 </div>	<!-- /Footer -->
+		 </div> <!-- Photos PAGE -->
+		 
+		 
+		 
+		 <!-- LINKS -->
+		 <div id="links" data-role="page">
+		 	<div data-role="header" data-position="fixed" data-id="paniska_header">
+		 		<h1>Links</h1>
+		 		<a href="#paniska" data-icon="arrow-l" data-transition="slidedown" data-iconpos="notext">Back</a>
+		 	</div> <!-- header -->
+		 	
+		 	<!-- Link contents -->
+			<div data-role="content">
+				<div data-role="collapsible" data-collapsed="false"> 
+					<h3> Social Media</h3>
+					<!-- Social Media list -->
+					<ul data-role="listview" data-inset="true">
+						
+						<!-- Instagram links -->
+						<li> 
+							<img src="./images/ig-icon.png" alt="" />
+							<p> &nbsp</p>
+							
+							<ul data-role="listview">
+								<li><a href="https://instagram.com/neil_o3/">Patrick</a></li>
+								<li><a href="https://instagram.com/amielskywalker/">Amiel</a></li>
+								<li><a href="https://instagram.com/nhelle_jean/">Nine(Jeanelle)</a></li>
+								<li><a>Sisel(Cecille)</a></li>
+								<li><a href="https://instagram.com/kahjoy_o8/">Kajang(Karen)</a></li>
+							</ul>						
+						</li> <!-- Instagram links -->
+						
+						<li> <h3> &nbsp</h3> </li>
+	
+						<!-- Facebook links -->
+						<li> 
+							<img src="./images/fb-icon.png" alt="" />
+							<p> &nbsp</p>
+							
+							<ul data-role="listview">
+								<li><a href="https://www.facebook.com/guitarboy23?fref=ts">Patrick</a></li>
+								<li><a href="https://www.facebook.com/amieljairo.gahol">Amiel</a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100004548677803&fref=ts">Nine(Jeanelle)</a></li>
+								<li><a>Sisel(Cecille)</a></li>
+								<li><a href="https://www.facebook.com/karen.joy.1257604?fref=ts">Kajang(Karen)</a></li>
+								<p> &nbsp</p>
+								<p> &nbsp</p>
+								<p> &nbsp</p>
+							</ul>						
+						</li>	<!-- Facebook links -->				
+	
+					</ul><!-- Social Media list -->	
+				</div>
+			</div> <!-- Links Contents  -->
+			
+			 <div data-role="footer" data-position="fixed" data-fullscreen="false">
+			 
+			 	<div data-role="navbar">
+		  			<ul>
+						<li><a href="#photos" data-role="button" data-transition="slideup"> Photos</a></li>
+						<li><a href="#videos" data-role="button" data-transition="slideup"> Videos </a></li>
+						<li><a href="#comments" data-role="button" data-transition="slideup"> Comments </a></li>
+						<li><a href="#links" data-role="button" class="ui-btn-active ui-state-persist" data-transition="slideup"> Links </a></li>
+					</ul>
+					<p></p>
+				</div><!-- /navbar -->
+			 </div>	<!-- /Footer -->
+		 </div> <!-- LINKS PAGE -->
+		 
+		 
+		 <!-- VIDEO PLAYER -->
+		 <div data role = "page" id="youtubePlayer">
+		 	<div data-role="header" data-position="fixed" data-id="paniska_header"> 
+		 		<h1>Youtube Player</h1>
+		 		<a href="#videos" data-icon="arrow-l" data-transition="slide" data-iconpos="notext">Back</a>		 	
+		 	</div><!-- header -->
+		 	
+		 	<div id="myPlayer" data-role="content" data-theme="a">
+		 	
+		 	</div>
+		 	
+			 <div data-role="footer" data-position="fixed" data-fullscreen="false">
+				<h4>&copy; P.A.Ni.S.Ka™</h4>
+			 </div>	<!-- /Footer -->		 	
+		 </div> <!-- Video Player page -->
+		 
+		 <div data-role="page" id="photoViewer">
+		 
+		 	<div data-role="header" data-position="fixed" data-id="paniska_header"> 
+		 		<h1>Photo Viewer</h1>
+		 		<a href="#photos" data-icon="arrow-l" data-transition="slide" data-iconpos="notext">Back</a>		 	
+		 	</div><!-- header -->	
+		 	
+		 	<div data-role="content" id = "viewPhoto">
+		 	
+		 	</div> <!-- photo contents -->	 	
+		 
+		 </div> <!-- Photo Viewer -->
+		 
+		 
+		 <script src="https://api.flickr.com/services/feeds/photos_public.gne?id=134817984@N03&format=json&per_page=500" type="text/javascript"></script>
+		 	 
+	</body>
+</html>

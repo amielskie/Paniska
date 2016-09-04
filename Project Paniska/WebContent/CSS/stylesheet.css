@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: "Helvetica" , Arial , sans-serif;
+}
+
+#paniska {
+	text-align: center;
+}
+
+#about {
+	text-align: center;
+}
+
+#paniska img{
+	width: 50%;
+	min-width: 300px;
+	max-width: 650px;
+	
+}
+
+
+#myPlayer {
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+b {
+	color: #00ff66;
+	font-size: 24px;
+}
+
+#photoList img{
+	width: 100px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-border-radius: 10px;
+}
+
+#photoList .ui-block-a,
+#photoList .ui-block-b,
+#photoList .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+
+
+
+#photoList.ui-grid-c {
+	width: 330px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#photoViewer img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+}
